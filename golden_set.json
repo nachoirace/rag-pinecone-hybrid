@@ -1,0 +1,27 @@
+[
+  {
+    "pregunta": "¿Qué pasa con lru_cache si maxsize es None?",
+    "respuesta_esperada": "Se desactiva la parte LRU y el caché puede crecer sin límite.",
+    "documento_id_esperado": "functools.pdf"
+  },
+  {
+    "pregunta": "¿Cómo convierto un string con un documento JSON en un objeto de Python usando loads?",
+    "respuesta_esperada": "json.loads(s) deserializa s (un str, bytes o bytearray con un documento JSON) a un objeto de Python.",
+    "documento_id_esperado": "json.pdf"
+  },
+  {
+    "pregunta": "¿Cómo agrupo elementos consecutivos de un iterable por una clave con groupby?",
+    "respuesta_esperada": "itertools.groupby(iterable, key=None) devuelve las claves y los grupos consecutivos; si key es None, agrupa por el elemento mismo.",
+    "documento_id_esperado": "itertools.pdf"
+  },
+  {
+    "pregunta": "¿Qué parámetros recibe DictReader para leer las filas de un CSV como diccionarios?",
+    "respuesta_esperada": "DictReader(f, fieldnames=None, restkey=None, restval=None, dialect='excel', *args, **kwds).",
+    "documento_id_esperado": "csv.pdf"
+  },
+  {
+    "pregunta": "¿Qué devuelve fullmatch si el patrón no coincide con todo el string?",
+    "respuesta_esperada": "Devuelve None (si coincide con todo el string devuelve un objeto Match).",
+    "documento_id_esperado": "re.pdf"
+  }
+]

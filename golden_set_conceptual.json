@@ -1,0 +1,27 @@
+[
+  {
+    "pregunta": "¿Cómo hago para que una función recuerde los resultados de llamadas anteriores y no los vuelva a calcular?",
+    "respuesta_esperada": "Con los decoradores cache (caché sin límite, también llamado memoize) o lru_cache de functools.",
+    "documento_id_esperado": "functools.pdf"
+  },
+  {
+    "pregunta": "¿Cómo obtengo todas las formas posibles de elegir r elementos de una colección sin importar el orden?",
+    "respuesta_esperada": "Con itertools.combinations(iterable, r), que devuelve las combinaciones de largo r.",
+    "documento_id_esperado": "itertools.pdf"
+  },
+  {
+    "pregunta": "¿Cómo represento la diferencia de tiempo entre dos fechas?",
+    "respuesta_esperada": "Con un timedelta, que representa la diferencia entre dos valores de datetime.",
+    "documento_id_esperado": "datetime.pdf"
+  },
+  {
+    "pregunta": "¿Cómo obtengo una lista con todas las coincidencias de un patrón dentro de un texto?",
+    "respuesta_esperada": "Con re.findall(pattern, string), que devuelve una lista con todas las coincidencias que no se superponen.",
+    "documento_id_esperado": "re.pdf"
+  },
+  {
+    "pregunta": "¿Cómo escribo filas en un archivo de valores separados por comas?",
+    "respuesta_esperada": "Con csv.writer(fileobj) y después writerow(row) o writerows(rows).",
+    "documento_id_esperado": "csv.pdf"
+  }
+]
